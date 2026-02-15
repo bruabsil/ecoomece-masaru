@@ -1,0 +1,178 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Courier New', Courier, monospace;
+
+ }
+
+
+ body {
+
+        background-color: #121212;
+        color: white;
+
+ }
+
+
+
+
+
+ .logo-title a {
+
+     text-decoration: none;
+     color: white;
+
+ }
+
+ .header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+     background-color: #353535;
+   
+
+ }
+
+
+ .search-bar {
+
+     padding: 0 40px;
+     display: flex;
+     position: relative;
+     flex-grow: 1;
+ 
+ }
+
+ .search-bar input {
+     width: 100%;
+     padding: 15px;
+     font-size: 1.2em;
+     border: 1px solid #222;
+     border-radius: 5px;
+     background-color: #333;
+     color: white;
+ }
+
+ .subscribe-button {
+    padding: 15px 25px;
+    background-color: #212121;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+ }
+
+ .select-category {
+     margin-left: 20px;
+     padding: 15px;
+     font-size: 1.2em;
+     border: 1px solid #222;
+     border-radius: 5px;
+     background-color: #333;
+     color: white;
+     font-size:  1em;
+
+ }
+
+
+/* Fim do header */
+
+.prompt {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ;
+}
+
+.prompt :hover {
+
+    transform: scale(1.05);
+}
+
+.prompt-img {
+
+    background-color: #555;
+    padding: 0;
+    display: grid;
+    place-items: center;
+
+   
+}
+
+.prompt-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.prompt-info h3{
+   margin: 0;
+   color: white;
+}
+
+.prompt-descripition p {
+    background-color: #222;
+    margin: 5px 0 0;
+    color: #ddd;
+
+}
+
+.descricao-produto {
+   background-color: #222;
+   color: #000;
+   padding: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+    padding: 20px;
+    max-width: 1280px;
+    margin:10px auto;
+
+}
+
+.label {
+   position: absolute;
+   left: 0;
+    top: 0;
+    padding: 3px 6px;
+    background-color: #212121;
+}
+
+.prompt .subscribe-button {
+    margin:8px auto;
+    display: block;
+    width:200px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #353535;
+color: white;
+padding: 20px;
+margin: 0 auto;
+}
+  
+
+.footer-content {
+  justify-content: space-between;
+    display: flex;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
